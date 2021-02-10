@@ -6,7 +6,7 @@ import Intro from "../components/index/intro/intro"
 const IndexPage = () => {
   return (
     <Layout>
-      <SEO title="Evolutio Consulting" description="" />
+      <SEO title="POSTERIS" description="" />
       <Intro />
     </Layout>
   )

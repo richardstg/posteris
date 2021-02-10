@@ -68,8 +68,8 @@ const Form = props => {
         }}
       >
         <h3>
-          Something went wrong. Please try again later or email directly at
-          mikael@evolutioconsulting.se.
+          Something went wrong. Please try again later or email at
+          xxxxxxxx@posteris.se.
         </h3>
         <button
           onClick={event => {
