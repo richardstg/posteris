@@ -142,17 +142,27 @@
   // position: relative;
   display: flex;
   justify-content: center;
-  width: 100%;
+  // width: 100%;
   margin-bottom: $vertical-rhythm * 2;
+  // width: 700px;
 
   img {
-    // width: 20px;
+    // width: 700px;
     position: absolute;
+    // height: default;
+    // object-fit: contain;
+    object-fit: contain !important;
   }
 }
 
 .logo {
   width: 700px;
+
+  // width: 100%;
+  // margin: 0 auto;
+
+  // margin: 0;
+  // padding: 0;
 }
 
 // .rightColumn {
