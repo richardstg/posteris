@@ -3,7 +3,6 @@
 .navbar {
   transition: all 0.2s ease-in;
   text-align: center;
-  padding: 20px 40px !important;
   z-index: 110;
   &:focus {
     outline: none;
@@ -16,8 +15,7 @@
     align-items: center;
     margin-left: 3rem;
   }
-  @media (max-width: 990px) {
-    padding: 10px 20px !important;
+  @media (max-width: 1199px) {
     li {
       margin-bottom: 20px;
       list-style: none;
@@ -31,24 +29,41 @@
 }
 
 .up {
-  @media (max-width: 1199px) {
-    box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.25);
-    background: rgba(250, 250, 250, 0.801);
-    background-color: rgba(24, 33, 40, 0.701);
-    background: url("../../../images/noisy.png");
-  }
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 20px 40px !important;
+  // @media (max-width: 1199px) {
+  //   padding: 10px 20px !important;
+  //   box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.25);
+  //   background-color: rgba(0, 0, 0, 0.575);
+  //   background-color: $dark-green;
+  //   border-bottom: none;
+  //   // background: url("../../../images/noisy.png");
+  // }
 }
 
 .down {
+  border-bottom: none;
+  padding: 10px 20px !important;
   box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.25);
   background: rgba(250, 250, 250, 0.801);
-  background-color: rgba(24, 33, 40, 0.701);
-  background: url("../../../images/noisy.png");
+  background-color: $dark-green;
+  // background-color: rgba(0, 0, 0, 0.575);
+  // background: url("../../../images/noisy.png");
+
+  background-color: rgba(0, 0, 0, 0.75);
+  /* if backdrop support: frosted glass */
+  @supports (
+    (-webkit-backdrop-filter: blur(5px)) or (backdrop-filter: blur(5px))
+  ) {
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+  }
 }
 
 .nav-link {
   color: #e6e6e6;
-  font-size: 1rem;
+  font-size: 0.8rem;
   text-decoration: none;
   font-family: $header-font;
   font-weight: 500;
@@ -74,31 +89,25 @@
   }
 }
 
-.number {
-  color: $button-color;
-  font-family: "Mitr", serif;
-  font-size: 0.85rem;
-}
-
 .navbarBrand {
-  display: inline-flex;
-  align-items: center;
-  svg {
-    width: 40px;
-    opacity: 0.85;
-    margin-left: 10px;
+  // display: inline-flex;
+  // align-items: center;
+  width: 200px;
+  img {
+    width: 100%;
+    object-fit: contain !important;
+
+    // opacity: 0.85;
+    // margin-left: 10px;
   }
-  p {
-    margin: 0;
-  }
-  &:hover {
-    text-decoration: none;
-  }
+  // &:hover {
+  //   text-decoration: none;
+  // }
 }
 
 /* Navbar Hamburger animation */
 
-$color: rgba(170, 230, 200, 1);
+$color: #e6e6e6;
 
 @mixin btn($left, $top) {
   position: relative;

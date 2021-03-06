@@ -9,7 +9,7 @@ import layoutStyles from "./layout.module.scss"
 const Layout = props => {
   return (
     <div className={layoutStyles.container} fluid>
-      {/* <Header /> */}
+      <Header />
       <div className={layoutStyles.main}>{props.children}</div>
       {/* <Footer /> */}
     </div>

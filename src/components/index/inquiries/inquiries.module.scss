@@ -1,0 +1,81 @@
+@import "../../../styles/variables.scss";
+@import "../../../styles/mixins.scss";
+
+.outer-wrapper {
+  position: relative;
+  min-height: 100vh;
+  padding-top: $vertical-rhythm * 7;
+  padding-bottom: $vertical-rhythm * 7;
+  background: url("../../../images/noisy-white.png");
+  display: flex;
+  align-content: center;
+  background-color: white;
+  // background-size: cover;
+}
+
+.inner-wrapper {
+  // border-top: 0.1px solid rgba(250, 250, 250, 0.4);
+  // padding-top: $vertical-rhythm * 2;
+  // padding-bottom: $vertical-rhythm * 2;
+  // text-align: center;
+}
+
+.text {
+  // margin-bottom: $vertical-rhythm;
+  color: $body-color;
+  p {
+    text-indent: 30px;
+    margin-bottom: 0;
+  }
+}
+
+.heading {
+  color: $header-color;
+  // border-bottom: 0.1px solid rgba(250, 250, 250, 0.4);
+  // padding-bottom: $vertical-rhythm;
+  letter-spacing: -1px;
+  // background-color: black;
+  // background-color: $dark-green;
+  color: white;
+  text-transform: uppercase;
+  span {
+    background-color: $dark-green;
+    padding: 0 $vertical-rhythm/2;
+  }
+}
+
+.arrowContainer {
+  position: absolute;
+  width: 100%;
+  margin: $vertical-rhythm * 3 0;
+}
+
+.arrow {
+  position: relative;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  a {
+    margin: auto;
+  }
+  svg {
+    display: block;
+    width: 40px;
+    fill: rgba(255, 255, 255, 0.6);
+    fill: rgba(0, 0, 0, 0.8);
+
+    &:hover {
+      fill: rgba(255, 255, 255, 0.9);
+      fill: rgba(0, 0, 0, 0.9);
+      cursor: pointer;
+    }
+  }
+}
+
+.up {
+  top: 0;
+}
+
+.down {
+  bottom: 0;
+}
