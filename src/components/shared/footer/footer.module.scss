@@ -1,7 +1,7 @@
 @import "../../../styles/variables.scss";
 
 .footer {
-  //position: absolute;
+  position: relative;
   //position: static;
   //bottom: 0;
   /* Set the fixed height of the footer here */
@@ -11,45 +11,47 @@
   background-color: $background-color;
   padding: $vertical-rhythm * 2 0;
   //margin-top: $vertical-rhythm * 20;
-  text-align: center;
+  background: url("../../../images/noisy-dark.png");
+  z-index: 10;
+  @media (max-width: 575px) {
+    text-align: center;
+  }
   p {
-    color: #f5f5f5;
-    font-size: 0.95rem;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 0.8rem;
   }
   a {
-    color: #f5f5f5;
-    font-size: 0.5rem;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 0.8rem;
+    &:hover {
+      text-decoration: none;
+      color: rgba(255, 255, 255, 0.7);
+    }
   }
   h6 {
-    margin-bottom: $vertical-rhythm;
-    color: #f5f5f5;
+    color: rgba(255, 255, 255, 0.9);
   }
 }
 
-.copyright {
-  // margin: $vertical-rhythm auto;
-  font-size: 0.8rem;
+.left-align {
+  text-align: left;
+  @media (max-width: 575px) {
+    text-align: center;
+  }
+}
+
+.right-align {
+  text-align: right;
+  @media (max-width: 575px) {
+    text-align: center;
+  }
 }
 
 .footer-nav {
+  padding: 0;
   list-style: none;
   margin-left: 0;
-}
-
-.footer-link {
-  color: #f5f5f5;
-  font-size: 0.95rem;
-  text-decoration: none;
-  font-family: $body-font;
-
-  &:hover {
-    color: #70d4ff;
-    //color: $button-color;
-    text-decoration: none;
+  li {
+    margin-left: 0;
   }
-}
-.active-footer-link {
-  color: #70d4ff;
-  //color: $button-color;
-  //border-color: $button-color;
 }

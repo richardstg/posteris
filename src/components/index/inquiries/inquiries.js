@@ -4,6 +4,7 @@ import { Container, Row, Col } from "reactstrap"
 import classes from "./inquiries.module.scss"
 import Arrow from "../../shared/svg/arrow"
 import Scroll from "../../../utils/scroll"
+import Form from "./form/form"
 
 const Inquiries = () => {
   return (
@@ -43,7 +44,8 @@ const Inquiries = () => {
               <h1 className={classes.heading}>
                 <span>Inquiries</span>
               </h1>
-              <p>
+              <Form />
+              {/* <p>
                 Ullamco sint eu sit ut esse fugiat quis consectetur nisi id
                 commodo. Ad eiusmod magna consectetur id. Laborum exercitation
                 anim aliqua duis cillum tempor irure eu sit dolore excepteur
@@ -75,7 +77,7 @@ const Inquiries = () => {
                 commodo. Ad eiusmod magna consectetur id. Laborum exercitation
                 anim aliqua duis cillum tempor irure eu sit dolore excepteur
                 ullamco.
-              </p>
+              </p> */}
               {/* </div> */}
             </div>
           </Col>

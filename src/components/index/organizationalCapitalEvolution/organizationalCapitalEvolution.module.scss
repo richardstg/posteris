@@ -9,8 +9,9 @@
   background: url("../../../images/noisy-white.png");
   display: flex;
   align-content: center;
-  background-color: white;
+  // background-color: $light-green-w;
   // background-size: cover;
+  // @include angle(before);
 }
 
 .inner-wrapper {
@@ -37,9 +38,10 @@
   // background-color: black;
   // background-color: $dark-green;
   color: white;
-  text-transform: uppercase;
+  // text-transform: uppercase;
   span {
     background-color: $dark-green;
+    // background-color: black;
     padding: 0 $vertical-rhythm/2;
   }
 }
@@ -55,6 +57,7 @@
   display: flex;
   align-content: center;
   align-items: center;
+  transition: all 0.4s ease-in;
   a {
     margin: auto;
   }
@@ -62,11 +65,11 @@
     display: block;
     width: 40px;
     fill: rgba(255, 255, 255, 0.6);
-    fill: rgba(0, 0, 0, 0.8);
+    fill: rgba(51, 51, 51, 0.8);
 
     &:hover {
       fill: rgba(255, 255, 255, 0.9);
-      fill: rgba(0, 0, 0, 0.9);
+      fill: rgba(51, 51, 51, 1);
       cursor: pointer;
     }
   }

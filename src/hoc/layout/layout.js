@@ -11,7 +11,7 @@ const Layout = props => {
     <div className={layoutStyles.container} fluid>
       <Header />
       <div className={layoutStyles.main}>{props.children}</div>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   )
 }

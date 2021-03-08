@@ -39,6 +39,8 @@ const OurBeliefs = () => {
         > */}
         <Row>
           <Col lg={{ size: 8, offset: 2 }}>
+            {/* <div className={classes.one}></div>
+            <div className={classes.two}></div> */}
             <div className={classes.text}>
               <h1 className={classes.heading}>
                 <span>Our Beliefs</span>

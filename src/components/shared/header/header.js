@@ -71,7 +71,7 @@ const Header = props => {
               items={[
                 "our-beliefs",
                 "who-we-are",
-                "organizational-evolution-capital",
+                "organizational-capital-evolution",
                 "inquiries",
               ]}
               currentClassName={classes.activeNavLink}
@@ -135,7 +135,7 @@ const Header = props => {
                   setIsOpen(false)
                 }}
               >
-                <Scroll type="id" element="organizational-evolution-capital">
+                <Scroll type="id" element="organizational-capital-evolution">
                   <a
                     data-sal="slide-down"
                     data-sal-delay="400"
@@ -144,7 +144,7 @@ const Header = props => {
                     className={classes.navLink}
                     href="!#"
                   >
-                    Organizational Evolution Capital
+                    Organizational Capital Evolution
                   </a>
                 </Scroll>
               </NavItem>

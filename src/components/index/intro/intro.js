@@ -3,21 +3,20 @@ import { Container, Row, Col } from "reactstrap"
 
 import classes from "./intro.module.scss"
 import Scroll from "../../../utils/scroll"
-import Logo from "../../shared/image/logoWhite"
-import Modal from "../../shared/UI/Modal/Modal"
-import Form from "./form/form"
-import backgroundVideo from "../../../videos/attractor.mp4"
-import BottomNav from "./bottomNav/bottomNav"
+// import Logo from "../../shared/image/logoWhite"
+// import Modal from "../../shared/UI/Modal/Modal"
+// import Form from "./form/form"
+import backgroundVideo from "../../../videos/attractor_compressed.mp4"
+import Poster from "../../../images/borealis.png"
+// import BottomNav from "./bottomNav/bottomNav"
 import Arrow from "../../shared/svg/arrow"
-import Header from "../../shared/header/header"
 
 const Intro = () => {
   const [showForm, setShowForm] = useState(false)
 
   return (
     <div id="intro" className={classes.outerWrapper}>
-      {/* <Header /> */}
-      <form
+      {/* <form
         name="contact"
         method="post"
         data-netlify="true"
@@ -26,25 +25,29 @@ const Intro = () => {
       >
         <input type="email" name="email" />
         <textarea name="message" />
-      </form>
-      {/* <video
+      </form> */}
+      <video
         className={classes.backgroundVideo}
         src={backgroundVideo}
+        poster={Poster}
         muted
         loop
         autoPlay
-      ></video> */}
+      ></video>
       <div className={classes.backgroundImage}></div>
       <div className={classes.noise}></div>
       {/* <div className={classes.overLay}></div> */}
       <Container className={classes.innerWrapper}>
         <Row className={classes.row}>
-          <Col lg={{ size: 8, offset: 2 }}>
+          <Col lg={{ size: 12, offset: 0 }}>
             <div className={classes.text}>
-              <h1 className={classes.title}>
+              <h1 className={classes.title}>Anim ut cillum do commodo</h1>
+              <p className={classes.subTitle}>
                 Anim ut cillum do commodo duis ex commodo proident non cillum
-                esse eu excepteur.
-              </h1>
+                esse eu excepteur ut cillum do commodo duis ex commodo proident
+                non cillum esse eu excepteur ut cillum do commodo duis ex duis
+                proident non.
+              </p>
               {/* <div
                   // data-sal="fade"
                   // data-sal-delay="300"
