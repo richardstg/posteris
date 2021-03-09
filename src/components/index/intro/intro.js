@@ -10,6 +10,7 @@ import backgroundVideo from "../../../videos/attractor_compressed.mp4"
 import Poster from "../../../images/borealis.png"
 // import BottomNav from "./bottomNav/bottomNav"
 import Arrow from "../../shared/svg/arrow"
+import Attractor from "../../shared/svg/attractor"
 
 const Intro = () => {
   const [showForm, setShowForm] = useState(false)
@@ -26,85 +27,63 @@ const Intro = () => {
         <input type="email" name="email" />
         <textarea name="message" />
       </form> */}
-      <video
+      {/* <video
         className={classes.backgroundVideo}
         src={backgroundVideo}
         poster={Poster}
         muted
         loop
         autoPlay
-      ></video>
+      ></video> */}
       <div className={classes.backgroundImage}></div>
+      {/* <div className={classes.backgroundSvg}></div> */}
+      <div className={classes.overLay}></div>
       <div className={classes.noise}></div>
-      {/* <div className={classes.overLay}></div> */}
       <Container className={classes.innerWrapper}>
         <Row className={classes.row}>
-          <Col lg={{ size: 12, offset: 0 }}>
+          <Col className={classes.leftColumn} lg={{ size: 12, offset: 0 }}>
+            <div className={classes.svg}>
+              <Attractor />
+            </div>
             <div className={classes.text}>
-              <h1 className={classes.title}>Anim ut cillum do commodo</h1>
+              <h1 className={classes.title}>Anim ut commodo</h1>
+              <hr />
+              <p className={classes.subTitle}>
+                Anim ut cillum do commodo duis ex commodo proident non cillum
+                esse eu excepteur.
+              </p>
+            </div>
+            <div>
+              <button className={classes.button}>
+                <Scroll type="id" element="inquiries">
+                  <a href="!#">Contact</a>
+                </Scroll>
+              </button>
+            </div>
+          </Col>
+        </Row>
+        {/* <Row className={classes.row}>
+          <Col className={classes.leftColumn} lg={{ size: 8, offset: 0 }}>
+            <div className={classes.svg}>
+              <Attractor />
+            </div>
+            <div className={classes.text}>
+              <h1 className={classes.title}>Anim ut commodo</h1>
+              <hr />
               <p className={classes.subTitle}>
                 Anim ut cillum do commodo duis ex commodo proident non cillum
                 esse eu excepteur ut cillum do commodo duis ex commodo proident
                 non cillum esse eu excepteur ut cillum do commodo duis ex duis
-                proident non.
+                proident.
               </p>
-              {/* <div
-                  // data-sal="fade"
-                  // data-sal-delay="300"
-                  // data-sal-duration="1200"
-                  // data-sal-easing="ease-in-back"
-                  className={classes.logoContainer}
-                >
-                  <div className={classes.logo}>
-                    <Logo />
-                  </div>
-                </div> */}
-              {/* <div
-                // data-sal="fade"
-                // data-sal-delay="500"
-                // data-sal-duration="1000"
-                // data-sal-easing="ease-in-back"
-                >
-                  <p className={classes.title}>
-                    We are currently working on
-                    our&nbsp;brand&nbsp;new&nbsp;website.
-                  </p>
-                </div> */}
-              {/* <div
-                  // data-sal="fade"
-                  // data-sal-delay="1000"
-                  // data-sal-duration="2000"
-                  // data-sal-easing="ease-out-bounce"
-                  className={classes.buttonDiv}
-                >
-                  <Scroll type="id" element="contact">
-                    <a
-                      // data-sal="slide-down"
-                      // data-sal-delay="100"
-                      // data-sal-duration="800"
-                      // data-sal-easing="ease-in-out-back"
-                      aria-label="Contact"
-                      href="!#"
-                    >
-                      <button
-                        className={classes.button}
-                        onClick={() => setShowForm(true)}
-                      >
-                        Get In Touch
-                      </button>
-                    </a>
-                  </Scroll>
-                </div> */}
-              {/* <Modal
-                  show={showForm}
-                  onCancel={() => setShowForm(false)}
-                  header="Contact"
-                >
-                  <Form onCancel={() => setShowForm(false)} />
-                </Modal> */}
             </div>
           </Col>
-        </Row>
+          <Col className={classes.leftColumn} lg={{ size: 4, offset: 0 }}>
+            <div className={classes.svg}>
+              <Attractor />
+            </div>
+          </Col>
+        </Row> */}
       </Container>
       <div className={`${classes.arrowContainer} ${classes.down}`}>
         <div
