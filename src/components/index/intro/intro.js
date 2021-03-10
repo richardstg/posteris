@@ -50,8 +50,10 @@ const Intro = () => {
               <h1 className={classes.title}>Anim ut commodo</h1>
               <hr />
               <p className={classes.subTitle}>
-                Anim ut cillum do commodo duis ex commodo proident non cillum
-                esse eu excepteur.
+                Anim ut cillum do{" "}
+                <span className={classes.color}>commodo duis ex commodo</span>{" "}
+                proident non cillum{" "}
+                <span className={classes.color}>esse eu excepteur.</span>
               </p>
             </div>
             <div>
