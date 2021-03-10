@@ -38,6 +38,7 @@ const Intro = () => {
       <div className={classes.backgroundImage}></div>
       {/* <div className={classes.backgroundSvg}></div> */}
       <div className={classes.overLay}></div>
+      {/* <div className={classes.overLays}></div> */}
       <div className={classes.noise}></div>
       <Container className={classes.innerWrapper}>
         <Row className={classes.row}>
