@@ -143,7 +143,7 @@ $button-color: $light-green;
   position: relative;
   z-index: 6;
   hr {
-    border-top: 2px solid rgb(211, 211, 211);
+    border-top: 2px solid rgb(230, 230, 230);
     width: 50px;
     margin-left: 0;
     // length: 40px;
@@ -164,7 +164,7 @@ $button-color: $light-green;
 .subTitle {
   font-size: 2.5rem;
   // margin-bottom: 0;
-  color: rgb(238, 238, 238);
+  color: rgb(242, 242, 242);
   line-height: normal;
   // color: $ocean;
   // line-height: 1;
@@ -183,7 +183,7 @@ $button-color: $light-green;
   }
   svg {
     // position: absolute;
-    stroke: rgba(245, 245, 245, 0.25);
+    stroke: rgba(240, 240, 240, 0.25);
     width: 100%;
     transform: rotate(180deg);
   }
