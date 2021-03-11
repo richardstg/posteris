@@ -39,12 +39,13 @@
     border: 3px solid $background-color; /* creates padding around scroll thumb */
   }
 
-  background-color: rgba(0, 0, 0, 0.75);
+  background-color: rgba(2, 89, 24, 0.75);
+  background: url("../../../../images/noisy-dark-green.png");
   /* if backdrop support: frosted glass */
   @supports (
     (-webkit-backdrop-filter: blur(5px)) or (backdrop-filter: blur(5px))
   ) {
-    background-color: rgba(255, 255, 255, 0.15);
+    background-color: rgba(2, 89, 24, 0.804);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
   }
@@ -83,70 +84,9 @@
 
 @media (min-width: 768px) {
   .modal {
-    width: 50rem;
+    width: 40rem;
   }
   .error {
-    width: 45rem;
+    width: 40rem;
   }
-}
-
-/* Form styling */
-.form {
-  padding: 0 20px;
-  background: transparent;
-  border-bottom-right-radius: 10px;
-  border-bottom-left-radius: 10px;
-  text-align: center;
-}
-.form fieldset {
-  border: none;
-}
-.form legend {
-  font-size: 1.4em;
-}
-.form label {
-  display: block;
-}
-.form input[type="text"],
-.form input[type="date"],
-.form input[type="datetime"],
-.form input[type="email"],
-.form input[type="number"],
-.form input[type="search"],
-.form input[type="time"],
-.form input[type="url"],
-.form input[type="password"],
-.form textarea,
-.form select {
-  background: rgba(255, 255, 255, 0.1);
-  border: none;
-  border-radius: 4px;
-  font-size: 15px;
-  margin: 0;
-  outline: 0;
-  padding: 10px;
-  width: 100%;
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  background-color: #e8eeef;
-  color: #8a97a0;
-  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
-  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
-}
-.form input[type="text"]:focus,
-.form input[type="date"]:focus,
-.form input[type="datetime"]:focus,
-.form input[type="email"]:focus,
-.form input[type="number"]:focus,
-.form input[type="search"]:focus,
-.form input[type="time"]:focus,
-.form input[type="url"]:focus,
-.form input[type="password"]:focus,
-.form textarea:focus,
-.form select:focus {
-  background: #d2d9dd;
-}
-.form select {
-  -webkit-appearance: menulist-button;
 }

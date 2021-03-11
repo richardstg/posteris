@@ -25,7 +25,7 @@
 .text {
   // margin-bottom: $vertical-rhythm;
   p {
-    text-indent: 30px;
+    // text-indent: 30px;
     margin-bottom: 0;
     // color: white;
   }
@@ -82,4 +82,43 @@
 
 .down {
   bottom: 0;
+}
+
+.linebreakExtraLarge {
+  @media screen and (max-width: 1199px) {
+    display: none;
+  }
+}
+
+.linebreakLarge {
+  @media screen and (min-width: 1200px) {
+    display: none;
+  }
+  @media screen and (max-width: 991px) {
+    display: none;
+  }
+}
+
+.linebreakMedium {
+  @media screen and (min-width: 992px) {
+    display: none;
+  }
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+}
+
+.linebreakSmall {
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+  @media screen and (max-width: 575px) {
+    display: none;
+  }
+}
+
+.linebreakPhone {
+  @media screen and (min-width: 576px) {
+    display: none;
+  }
 }

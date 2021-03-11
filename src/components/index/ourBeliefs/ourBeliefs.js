@@ -46,37 +46,32 @@ const OurBeliefs = () => {
                 <span>Our Beliefs</span>
               </h1>
               <p>
-                Ullamco sint eu sit ut esse fugiat quis consectetur nisi id
-                commodo. Ad eiusmod magna consectetur id. Laborum exercitation
-                anim aliqua duis cillum tempor irure eu sit dolore excepteur
-                ullamco.
-              </p>
-              <p>
-                Ullamco sint eu sit ut esse fugiat quis consectetur nisi id
-                commodo. Ad eiusmod magna consectetur id. Laborum exercitation
-                anim aliqua duis cillum tempor irure eu sit dolore excepteur
-                ullamco. Ullamco sint eu sit ut esse fugiat quis consectetur
-                nisi id commodo. Ad eiusmod magna consectetur id. Laborum
-                exercitation anim aliqua duis cillum tempor irure eu sit dolore
-                excepteur ullamco. Ullamco sint eu sit ut esse fugiat quis
-                consectetur nisi id commodo. Ad eiusmod magna consectetur id.
-                Laborum exercitation anim aliqua duis cillum tempor irure eu sit
-                dolore excepteur ullamco.
-              </p>
-              <p>
-                Ullamco sint eu sit ut esse fugiat quis consectetur nisi id
-                commodo. Ad eiusmod magna consectetur id. Laborum exercitation
-                anim aliqua duis cillum tempor irure eu sit dolore excepteur
-                ullamco. Ullamco sint eu sit ut esse fugiat quis consectetur
-                nisi id commodo. Ad eiusmod magna consectetur id. Laborum
-                exercitation anim aliqua duis cillum tempor irure eu sit dolore
-                excepteur ullamco.
-              </p>
-              <p>
-                Ullamco sint eu sit ut esse fugiat quis consectetur nisi id
-                commodo. Ad eiusmod magna consectetur id. Laborum exercitation
-                anim aliqua duis cillum tempor irure eu sit dolore excepteur
-                ullamco.
+                We observe that information flows at an
+                increasingly&nbsp;higher&nbsp;pace
+                <br />
+                We observe an increasing number of&nbsp;interconnections{" "}
+                <br className={classes.linebreakLarge} />
+                <br className={classes.linebreakMedium} />
+                and new&nbsp;business&nbsp;logics
+                <br />
+                We observe the rise of distributed leadership and&nbsp;
+                <br className={classes.linebreakSmall} />
+                self&#8209;organizations
+                <br />
+                <br />
+                We believe in deep knowledge and data&#8209;driven&nbsp;
+                <br className={classes.linebreakSmall} />
+                decision&#8209;making
+                <br />
+                We believe in pragmatic value creation and{" "}
+                <br className={classes.linebreakSmall} />
+                cultural&nbsp;alignment
+                <br />
+                We believe in inner and outer&nbsp;sustainability
+                <br />
+                <br />
+                However, everything we observe and believe in is evolving and it
+                is driven&nbsp;by&nbsp;people
               </p>
               {/* </div> */}
             </div>

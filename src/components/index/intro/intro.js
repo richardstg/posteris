@@ -47,13 +47,27 @@ const Intro = () => {
               <Attractor />
             </div>
             <div className={classes.text}>
-              <h1 className={classes.title}>Anim ut commodo</h1>
+              <h1 className={classes.title}>The Butterfly Effect</h1>
               <hr />
               <p className={classes.subTitle}>
-                Anim ut cillum do{" "}
+                Similar to Organisational Capital,{" "}
+                <span className={classes.color}>
+                  is the sensitive dependence on initial conditions in which a
+                </span>{" "}
+                small change in a nonlinear system{" "}
+                <span className={classes.color}>
+                  can result in large differences in a later state.
+                </span>
+                <br />
+                <br />
+                In other words, small as we are, we can{" "}
+                <span className={classes.color}>
+                  have an influence on the world
+                </span>
+                {/* Anim ut cillum do{" "}
                 <span className={classes.color}>commodo duis ex commodo</span>{" "}
                 proident non cillum{" "}
-                <span className={classes.color}>esse eu excepteur.</span>
+                <span className={classes.color}>esse eu excepteur.</span> */}
               </p>
             </div>
             <div>
@@ -74,10 +88,7 @@ const Intro = () => {
               <h1 className={classes.title}>Anim ut commodo</h1>
               <hr />
               <p className={classes.subTitle}>
-                Anim ut cillum do commodo duis ex commodo proident non cillum
-                esse eu excepteur ut cillum do commodo duis ex commodo proident
-                non cillum esse eu excepteur ut cillum do commodo duis ex duis
-                proident.
+               Small changes to organizational capital can lead to big changes later.
               </p>
             </div>
           </Col>

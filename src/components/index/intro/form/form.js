@@ -47,7 +47,7 @@ const Form = props => {
           props.onCancel()
         }}
       >
-        <h3>Thank you!</h3>
+        <h3>Your message has successfully been sent.</h3>
         <h3>We will get back to you shortly.</h3>
         <button
           onClick={event => {

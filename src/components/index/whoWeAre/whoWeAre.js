@@ -44,37 +44,44 @@ const WhoWeAre = () => {
                 <span>Who We Are</span>
               </h1>
               <p>
-                Ullamco sint eu sit ut esse fugiat quis consectetur nisi id
-                commodo. Ad eiusmod magna consectetur id. Laborum exercitation
-                anim aliqua duis cillum tempor irure eu sit dolore excepteur
-                ullamco.
-              </p>
-              <p>
-                Ullamco sint eu sit ut esse fugiat quis consectetur nisi id
-                commodo. Ad eiusmod magna consectetur id. Laborum exercitation
-                anim aliqua duis cillum tempor irure eu sit dolore excepteur
-                ullamco. Ullamco sint eu sit ut esse fugiat quis consectetur
-                nisi id commodo. Ad eiusmod magna consectetur id. Laborum
-                exercitation anim aliqua duis cillum tempor irure eu sit dolore
-                excepteur ullamco. Ullamco sint eu sit ut esse fugiat quis
-                consectetur nisi id commodo. Ad eiusmod magna consectetur id.
-                Laborum exercitation anim aliqua duis cillum tempor irure eu sit
-                dolore excepteur ullamco.
-              </p>
-              <p>
-                Ullamco sint eu sit ut esse fugiat quis consectetur nisi id
-                commodo. Ad eiusmod magna consectetur id. Laborum exercitation
-                anim aliqua duis cillum tempor irure eu sit dolore excepteur
-                ullamco. Ullamco sint eu sit ut esse fugiat quis consectetur
-                nisi id commodo. Ad eiusmod magna consectetur id. Laborum
-                exercitation anim aliqua duis cillum tempor irure eu sit dolore
-                excepteur ullamco.
-              </p>
-              <p>
-                Ullamco sint eu sit ut esse fugiat quis consectetur nisi id
-                commodo. Ad eiusmod magna consectetur id. Laborum exercitation
-                anim aliqua duis cillum tempor irure eu sit dolore excepteur
-                ullamco.
+                We come from all different backgrounds,{" "}
+                <br className={classes.linebreakExtraLarge} />
+                <br className={classes.linebreakLarge} />
+                <br className={classes.linebreakMedium} />
+                <br className={classes.linebreakSmall} />
+                brought&nbsp;together by a passion for
+                people&nbsp;and&nbsp;business
+                <br />
+                {/* <br className={classes.linebreakPhone} /> */}
+                We are real people who combine
+                Mind,&nbsp;Heart&nbsp;and&nbsp;Soul
+                in&nbsp;all&nbsp;that&nbsp;we&nbsp;are
+                <br />
+                <br className={classes.linebreakPhone} />
+                We want to make a positive impact&nbsp;on&nbsp;the&nbsp;world
+                <br />
+                {/* <br className={classes.linebreakPhone} /> */}
+                We think differently with an ambition{" "}
+                {/* <br className={classes.linebreakSmall} /> */}
+                to challenge&nbsp;conventionality
+                <br />
+                {/* <br className={classes.linebreakPhone} /> */}
+                We don’t take shortcuts, We create sustainable&nbsp;value
+                <br />
+                <br className={classes.linebreakPhone} />
+                We are a team <br className={classes.linebreakSmall} />
+                with a shared evolving purpose&nbsp;and&nbsp;values
+                <br />
+                {/* <br className={classes.linebreakPhone} /> */}
+                We develop people who evolve organizations that make{" "}
+                <br className={classes.linebreakMedium} />a difference
+                in&nbsp;the&nbsp;world
+                <br />
+                <br />
+                We create Organizational Capital&nbsp;Evolution
+                <br />
+                {/* <br className={classes.linebreakPhone} /> */}
+                And we are looking for Someone to join&nbsp;our&nbsp;team
               </p>
               {/* </div> */}
             </div>
