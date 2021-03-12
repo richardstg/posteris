@@ -47,10 +47,12 @@ const Intro = () => {
               <Attractor />
             </div>
             <div className={classes.text}>
-              <h1 className={classes.title}>The Butterfly Effect</h1>
+              <h1 className={classes.title}>Positive Impact</h1>
               <hr />
               <p className={classes.subTitle}>
-                Similar to Organisational Capital,{" "}
+                Through Organisational
+                <span className={classes.color}> Capital Partnerships</span>
+                {/* Similar to Organisational Capital,{" "}
                 <span className={classes.color}>
                   is the sensitive dependence on initial conditions in which a
                 </span>{" "}
@@ -63,7 +65,7 @@ const Intro = () => {
                 In other words, small as we are, we can{" "}
                 <span className={classes.color}>
                   have an influence on the world
-                </span>
+                </span> */}
                 {/* Anim ut cillum do{" "}
                 <span className={classes.color}>commodo duis ex commodo</span>{" "}
                 proident non cillum{" "}
