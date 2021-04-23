@@ -1,6 +1,6 @@
 import React from "react"
 import SEO from "../components/shared/seo/seo"
-import Layout from "../hoc//layout/layout"
+import Layout from "../hoc/layout/layout"
 import Intro from "../components/index/intro/intro"
 import OurBeliefs from "../components/index/ourBeliefs/ourBeliefs"
 import WhoWeAre from "../components/index/whoWeAre/whoWeAre"

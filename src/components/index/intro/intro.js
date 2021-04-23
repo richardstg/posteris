@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React from "react"
 import { Container, Row, Col } from "reactstrap"
 
 import classes from "./intro.module.scss"
@@ -6,14 +6,14 @@ import Scroll from "../../../utils/scroll"
 // import Logo from "../../shared/image/logoWhite"
 // import Modal from "../../shared/UI/Modal/Modal"
 // import Form from "./form/form"
-import backgroundVideo from "../../../videos/attractor_compressed.mp4"
-import Poster from "../../../images/borealis.png"
+// import backgroundVideo from "../../../videos/attractor_compressed.mp4"
+// import Poster from "../../../images/borealis.png"
 // import BottomNav from "./bottomNav/bottomNav"
 import Arrow from "../../shared/svg/arrow"
 import Attractor from "../../shared/svg/attractor"
 
 const Intro = () => {
-  const [showForm, setShowForm] = useState(false)
+  // const [showForm, setShowForm] = useState(false)
 
   return (
     <div id="intro" className={classes.outerWrapper}>

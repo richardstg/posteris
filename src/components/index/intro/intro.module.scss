@@ -143,8 +143,8 @@ $button-color: $light-green;
   position: relative;
   z-index: 6;
   hr {
-    border-top: 2px solid rgb(180, 180, 180);
-    border-top: 2px solid $light-green;
+    // border-top: 2px solid rgb(180, 180, 180);
+    // border-top: 2px solid $light-green;
     border-top: 2px solid white;
 
     width: 50px;
@@ -186,6 +186,7 @@ $button-color: $light-green;
   // margin-left: -25%;
   width: 90%;
   margin-left: 46%;
+  // width: 89%;
   @media screen and (max-width: 991px) {
     margin-left: 0;
   }
