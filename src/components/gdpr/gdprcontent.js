@@ -16,12 +16,6 @@ const GdprContent = () => {
             <div className={classes.logo}>
               <Logo />
             </div>
-            <p className={classes.text}>
-              Jag vill gå med i Posteris nätverk och samtycker till att Posteris
-              sparar mina personuppgifter, i syfte att min kandidatprofil finns
-              tillgänglig för Posteris representanter i deras arbete med
-              rekrytering för egen eller för uppdragsgivares räkning.
-            </p>
             <h1 className={classes.firstHeader}>
               Integritetspolicy kandidater
             </h1>
@@ -41,7 +35,7 @@ const GdprContent = () => {
               gdpr@posteris.se
             </p>
             <h2 className={classes.secondHeader}>
-              Genom denna integritetspolicy vill vi informera dig om hur dina
+              1. Genom denna integritetspolicy vill vi informera dig om hur dina
               personuppgifter behandlas av oss när du:
             </h2>
             <ul className={classes.list}>
@@ -57,8 +51,8 @@ const GdprContent = () => {
               </li>
             </ul>
             <h2 className={classes.secondHeader}>
-              Sammanfattningsvis behandlar vi dina personuppgifter för följande
-              övergripande ändamål:
+              2. Sammanfattningsvis behandlar vi dina personuppgifter för
+              följande övergripande ändamål:
             </h2>
             <ul className={classes.list}>
               <li className={classes.listItem}>
@@ -91,7 +85,7 @@ const GdprContent = () => {
               </li>
             </ul>
             <h2 className={classes.secondHeader}>
-              Vill du veta mer om hur vi behandlar dina personuppgifter?
+              3. Vill du veta mer om hur vi behandlar dina personuppgifter?
             </h2>
             <p className={classes.text}>
               Vi lämnar mer detaljerad information om hur vi behandlar dina
@@ -125,14 +119,14 @@ const GdprContent = () => {
               </li>
             </ul>
             <h2 className={classes.secondHeader}>
-              Personuppgifter som vi behandlar om dig
+              4. Personuppgifter som vi behandlar om dig
             </h2>
             <p className={classes.text}>
               Vi behandlar olika personuppgifter beroende på vilken relation vi
               har med dig. Mer detaljerad information finns nedan.
             </p>
             <h3 className={classes.thirdHeader}>
-              För dig som är med i vårt kandidatnätverk
+              4.1 För dig som är med i vårt kandidatnätverk
             </h3>
             <p className={classes.text}>
               När du är med i vårt kandidatnätverk behandlar vi den information
@@ -173,7 +167,8 @@ const GdprContent = () => {
               dig.
             </p>
             <h3 className={classes.thirdHeader}>
-              För dig som kontaktar oss via vårt kontaktformulär eller e-post
+              4.2 För dig som kontaktar oss via vårt kontaktformulär eller
+              e-post
             </h3>
             <p className={classes.text}>
               När du använder vårt kontaktformulär eller skickar frågor via
@@ -183,14 +178,14 @@ const GdprContent = () => {
               kontaktformuläret eller din e-post.
             </p>
             <h2 className={classes.secondHeader}>
-              För vilka ändamål behandlar vi dina personuppgifter?
+              5. För vilka ändamål behandlar vi dina personuppgifter?
             </h2>
             <h3 className={classes.thirdHeader}>
-              För dig som är med i vårt kandidatnätverk
+              5.1 För dig som är med i vårt kandidatnätverk
             </h3>
             <h4 className={classes.fourthHeader}>
-              För att administrera din kandidatprofil om du väljer att gå med i
-              vårt kandidatnätverk
+              5.1.1 För att administrera din kandidatprofil om du väljer att gå
+              med i vårt kandidatnätverk
             </h4>
             <p className={classes.text}>
               När du går med i vårt kandidatnätverk kommer vi att behandla dina
@@ -205,7 +200,8 @@ const GdprContent = () => {
               och matcha din profil mot lediga tjänster.
             </p>
             <h4 className={classes.fourthHeader}>
-              Personlighets- och logiktester samt uppgifter från referenser
+              5.1.2 Personlighets- och logiktester samt uppgifter från
+              referenser
             </h4>
             <p className={classes.text}>
               Om du genomför ett personlighets- eller logiktest i samband med
@@ -218,7 +214,7 @@ const GdprContent = () => {
               information från dina referenser är ditt samtycke.
             </p>
             <h4 className={classes.fourthHeader}>
-              För att göra marknadsundersökningar och/eller utvärderingar
+              5.1.3 För att göra marknadsundersökningar och/eller utvärderingar
             </h4>
             <p className={classes.text}>
               Vi arbetar ständigt med att förbättra vår verksamhet. Vi kan
@@ -232,10 +228,11 @@ const GdprContent = () => {
               vårt tjänsteutbud.
             </p>
             <h3 className={classes.thirdHeader}>
-              För dig som kontaktar oss via vårt kontaktformulär eller e-post
+              5.2 För dig som kontaktar oss via vårt kontaktformulär eller
+              e-post
             </h3>
             <h4 className={classes.fourthHeader}>
-              För att kommunicera med dig och svara på ditt meddelande
+              5.2.1 För att kommunicera med dig och svara på ditt meddelande
             </h4>
             <p className={classes.text}>
               För att kommunicera med dig och svara på ditt meddelande som du
@@ -253,7 +250,7 @@ const GdprContent = () => {
               tillämpliga rubriker.
             </p>
             <h2 className={classes.secondHeader}>
-              När är Posteris AB personuppgiftsansvarig och vad innebär det?
+              6. När är Posteris AB personuppgiftsansvarig och vad innebär det?
             </h2>
             <p className={classes.text}>
               Posteris AB är personuppgiftsansvarig för all den behandling av
@@ -267,7 +264,7 @@ const GdprContent = () => {
             </p>
 
             <h2 className={classes.secondHeader}>
-              Hur har vi gjort vår bedömning när vi behandlar uppgifter med
+              7. Hur har vi gjort vår bedömning när vi behandlar uppgifter med
               intresseavvägning som laglig grund?
             </h2>
             <p className={classes.text}>
@@ -280,7 +277,7 @@ const GdprContent = () => {
               Våra kontaktuppgifter finns i början av denna integritetspolicy.
             </p>
             <h2 className={classes.secondHeader}>
-              Vilka kan få tillgång till dina personuppgifter?
+              8. Vilka kan få tillgång till dina personuppgifter?
             </h2>
             <p className={classes.text}>
               Dina personuppgifter behandlas som utgångspunkt endast av
@@ -312,7 +309,7 @@ const GdprContent = () => {
               </li>
             </ul>
             <h2 className={classes.secondHeader}>
-              Hur länge sparar vi dina personuppgifter?
+              9. Hur länge sparar vi dina personuppgifter?
             </h2>
             <p className={classes.text}>
               Nedan anges hur länge Posteris sparar dina personuppgifter. Dina
@@ -323,7 +320,7 @@ const GdprContent = () => {
               tjänst och även är med i vårt kandidatnätverk.
             </p>
             <h3 className={classes.thirdHeader}>
-              För dig som är med i vårt kandidatnätverk
+              9.1 För dig som är med i vårt kandidatnätverk
             </h3>
             <p className={classes.text}>
               När du väljer att gå med i vårt kandidatnätverk sparar vi de
@@ -369,7 +366,8 @@ const GdprContent = () => {
               </li>
             </ul>
             <h3 className={classes.thirdHeader}>
-              För dig som kontaktar oss via vårt kontaktformulär eller e-post
+              9.2 För dig som kontaktar oss via vårt kontaktformulär eller
+              e-post
             </h3>
             <p className={classes.text}>
               För att svara på ditt meddelande och hjälpa dig med ditt ärende
@@ -379,7 +377,7 @@ const GdprContent = () => {
               avslutat.
             </p>
             <h2 className={classes.secondHeader}>
-              Överför vi dina personuppgifter utanför EU/EES?
+              10. Överför vi dina personuppgifter utanför EU/EES?
             </h2>
             <p className={classes.text}>
               Posteris behandlar som huvudregel dina personuppgifter inom
@@ -409,21 +407,23 @@ const GdprContent = () => {
               vidtagit är du välkommen att kontakta oss via de kontaktuppgifter
               som framgår i inledningen till integritetspolicyn.
             </p>
-            <h2 className={classes.secondHeader}>Dina rättigheter</h2>
+            <h2 className={classes.secondHeader}>11. Dina rättigheter</h2>
             <p className={classes.text}>
               Du har vissa rättigheter avseende behandlingen av dina
               personuppgifter, dessa beskrivs närmare nedan. För att utöva dina
               rättigheter är du välkommen att kontakta oss via de
               kontaktuppgifter som framgår i inledningen till den här policyn.
             </p>
-            <h3 className={classes.thirdHeader}>Återkalla ditt samtycke</h3>
+            <h3 className={classes.thirdHeader}>
+              11.1 Återkalla ditt samtycke
+            </h3>
             <p className={classes.text}>
               Du har rätt att när som helst återkalla hela eller del av ett
               lämnat samtycke om behandling av personuppgifter. Återkallelsen av
               ditt samtycke får dock ingen effekt på vår behandling av dina
               personuppgifter för tiden innan återkallelsen ägde rum.
             </p>
-            <h3 className={classes.thirdHeader}>Rätt till tillgång</h3>
+            <h3 className={classes.thirdHeader}>11.2 Rätt till tillgång</h3>
             <p className={classes.text}>
               Du har rätt att få en bekräftelse på om personuppgifter som rör
               dig behandlas samt tillgång till information om hur
@@ -432,14 +432,14 @@ const GdprContent = () => {
               har även rätt att få en kopia av de personuppgifter som är under
               behandling.
             </p>
-            <h3 className={classes.thirdHeader}>Rätt till rättelse</h3>
+            <h3 className={classes.thirdHeader}>11.3 Rätt till rättelse</h3>
             <p className={classes.text}>
               Du har även rätt att utan onödigt dröjsmål få felaktiga
               personuppgifter rättade, samt genom att tillhandahålla information
               komplettera ofullständiga personuppgifter.
             </p>
             <h3 className={classes.thirdHeader}>
-              Rätt till radering (rätten att bli bortglömd)
+              11.4 Rätt till radering (rätten att bli bortglömd)
             </h3>
             <p className={classes.text}>
               Du har under vissa förutsättningar rätt att begära radering av
@@ -485,7 +485,7 @@ const GdprContent = () => {
               dataskydd.
             </p>
             <h3 className={classes.thirdHeader}>
-              Rätt till begränsning av behandling
+              11.5 Rätt till begränsning av behandling
             </h3>
             <p className={classes.text}>
               Du har under vissa förutsättningar rätt att begära att
@@ -523,7 +523,7 @@ const GdprContent = () => {
               </li>
             </ul>
             <h3 className={classes.thirdHeader}>
-              Rätt att invända mot behandling
+              11.6 Rätt att invända mot behandling
             </h3>
             <p className={classes.text}>
               Du har rätt att när som helst invända mot behandling av dina
@@ -537,7 +537,7 @@ const GdprContent = () => {
               eller om det sker för fastställande, utövande eller försvar av
               rättsliga anspråk.
             </p>
-            <h3 className={classes.thirdHeader}>Rätt att inge klagomål</h3>
+            <h3 className={classes.thirdHeader}>11.7 Rätt att inge klagomål</h3>
             <p className={classes.text}>
               Du har rätt att lämna klagomål till en behörig tillsynsmyndighet
               (utan att det påverkar något annat administrativt
@@ -547,7 +547,9 @@ const GdprContent = () => {
               gällande lagar och regler för dataskydd påstås ha förekommit.
               Behörig tillsynsmyndighet i Sverige är Datainspektionen.
             </p>
-            <h3 className={classes.thirdHeader}>Rätt till dataportabilitet</h3>
+            <h3 className={classes.thirdHeader}>
+              11.8 Rätt till dataportabilitet
+            </h3>
             <p className={classes.text}>
               Du har rätt att få ut och be oss överföra de personuppgifter som
               rör dig, som du har tillhandahållit oss, till en annan
