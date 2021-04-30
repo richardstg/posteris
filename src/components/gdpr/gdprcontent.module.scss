@@ -5,11 +5,13 @@ $button-color: $light-green;
 .outer-wrapper {
   position: relative;
   min-height: 100vh;
-  display: flex;
+  padding: 20px;
+  // display: flex;
   //   align-content: center;
   //   align-items: center;
-  padding-top: $vertical-rhythm * 4;
-  padding-bottom: $vertical-rhythm * 4;
+  // padding-top: $vertical-rhythm * 4;
+  // padding-bottom: $vertical-rhythm * 4;
+  // padding: 20px;
   overflow: hidden;
 }
 
@@ -19,6 +21,12 @@ $button-color: $light-green;
   //   h4 {
   //     margin-bottom: 0;
   //   }
+}
+
+.header {
+  @media screen and (min-width: 1200px) {
+    margin: 0;
+  }
 }
 
 .background-image {
@@ -60,18 +68,20 @@ $button-color: $light-green;
 }
 
 .logo {
-  width: 400px;
-  margin: 0 auto;
-  margin-bottom: $vertical-rhythm * 2;
+  width: 200px;
+  position: relative;
+  // margin: 0 auto;
+  margin-bottom: $vertical-rhythm;
   //   display: flex;
   //   justify-content: center;
+  z-index: 7;
   img {
     position: absolute;
     object-fit: contain !important;
   }
-  @media screen and (max-width: 575px) {
-    width: 100%;
-  }
+  // @media screen and (max-width: 575px) {
+  //   width: 100%;
+  // }
 }
 
 .list {

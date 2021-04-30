@@ -10,12 +10,14 @@ const GdprContent = () => {
       <div className={classes.backgroundImage}></div>
       <div className={classes.overLay}></div>
       <div className={classes.noise}></div>
+      <Container className={classes.header}>
+        <div className={classes.logo}>
+          <Logo />
+        </div>
+      </Container>
       <Container className={classes.innerWrapper}>
         <Row>
           <Col xl={{ size: 10, offset: 1 }}>
-            <div className={classes.logo}>
-              <Logo />
-            </div>
             <h1 className={classes.firstHeader}>
               Integritetspolicy kandidater
             </h1>
