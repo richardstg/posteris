@@ -17,7 +17,7 @@ module.exports = {
     description: "POSTERIS",
     url: "https://posteris.se",
     siteUrl: "https://posteris.se",
-    image: "/preview.jpg",
+    image: "/preview.png",
     twitterUsername: "",
   },
   plugins: [
