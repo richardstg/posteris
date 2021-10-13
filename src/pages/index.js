@@ -7,7 +7,7 @@ import Layout from "../hoc/layout/layout"
 // import OrganizationalCapitalEvolution from "../components/index/organizationalCapitalEvolution/organizationalCapitalEvolution"
 // import Inquiries from "../components/index/inquiries/inquiries"
 
-import NotFound from "../components/404/notFound"
+import NotFound from "../components/index/404/notFound"
 
 const IndexPage = () => {
   return (
@@ -18,7 +18,7 @@ const IndexPage = () => {
       <WhoWeAre />
       <OrganizationalCapitalEvolution />
       <Inquiries /> */}
-      <SEO title="404" description="Page not found." />
+      <SEO title="Home" description="Website under construction." />
       <NotFound />
     </div>
   )
