@@ -18,567 +18,513 @@ const GdprContent = () => {
       <Container className={classes.innerWrapper}>
         <Row>
           <Col xl={{ size: 10, offset: 1 }}>
-            <h1 className={classes.firstHeader}>
-              Integritetspolicy kandidater
-            </h1>
-            <p className={classes.text}>
-              Posteris värnar om din integritet och strävar därför efter att
-              alltid skydda dina personuppgifter på bästa sätt och följa alla
-              vid var tid gällande lagar och regler för dataskydd.
-            </p>
-            <p className={classes.text}>
-              Posteris AB, org.nr. 559237-9415 är personuppgiftsansvariga för
-              behandlingen av dina personuppgifter. Mer information om detta kan
-              du läsa nedan under rubriken ”När är Posteris AB
-              personuppgiftsansvariga och vad innebär det?”.
-            </p>
-            <p className={classes.text}>
-              Om du vill kontakta oss når du oss på 0768649030 och e-postadress
-              gdpr@posteris.se
-            </p>
+            <h1 className={classes.firstHeader}>PRIVACY POLICY</h1>
             <h2 className={classes.secondHeader}>
-              1. Genom denna integritetspolicy vill vi informera dig om hur dina
-              personuppgifter behandlas av oss när du:
-            </h2>
-            <ul className={classes.list}>
-              <li className={classes.listItem}>
-                <p className={classes.text}>
-                  är med i vårt kandidatnätverk; och/eller
-                </p>
-              </li>
-              <li className={classes.listItem}>
-                <p className={classes.text}>
-                  kontaktar oss via vårt kontaktformulär eller e-post.
-                </p>
-              </li>
-            </ul>
-            <h2 className={classes.secondHeader}>
-              2. Sammanfattningsvis behandlar vi dina personuppgifter för
-              följande övergripande ändamål:
-            </h2>
-            <ul className={classes.list}>
-              <li className={classes.listItem}>
-                <p className={classes.text}>
-                  om du är med i vårt kandidatnätverk: för att administrera din
-                  kandidatprofil samt matcha dig mot lediga tjänster, samt för
-                  att göra e-postutskick för att upprätthålla relationen till
-                  Posteris
-                </p>
-              </li>
-              <li className={classes.listItem}>
-                <p className={classes.text}>
-                  för att bevaka Posteris rättsliga intressen i samband med
-                  eventuella rättsliga tvister, t.ex. diskrimineringstvister,
-                  och/eller reklamationer som du är inblandad i (direkt eller
-                  indirekt);
-                </p>
-              </li>
-              <li className={classes.listItem}>
-                <p className={classes.text}>
-                  för att göra marknadsundersökningar och/eller utvärderingar;
-                  och/eller
-                </p>
-              </li>
-              <li className={classes.listItem}>
-                <p className={classes.text}>
-                  för att annars kommunicera med dig om du kontaktat oss genom
-                  vårt kontaktformulär eller via e-post.
-                </p>
-              </li>
-            </ul>
-            <h2 className={classes.secondHeader}>
-              3. Vill du veta mer om hur vi behandlar dina personuppgifter?
+              About Posteris AB and this privacy policy
             </h2>
             <p className={classes.text}>
-              Vi lämnar mer detaljerad information om hur vi behandlar dina
-              personuppgifter nedan.
+              Posteris AB, Reg. No. 559237-9415, Lillängsgatan 24, 168 58
+              Bromma, Sweden (“Posteris”, “we” or “us”) offers organisational
+              and operational advisory services to companies, aiming to help you
+              manage and improve your corporate and human capital in an
+              innovative manner.
             </p>
             <p className={classes.text}>
-              Genom att läsa vår integritetspolicy kommer du bland annat:
+              As part of our business, Posteris processes personal data for
+              which Posteris is the data controller. This means that Posteris is
+              responsible for ensuring that the processing of personal data is
+              carried out in accordance with applicable law and this privacy
+              policy. We take all necessary measures to make sure that your
+              personal data are being processed by us in a lawful, fair and
+              transparent manner.
+            </p>
+            <p className={classes.text}>
+              It is important to us that you feel comfortable with how we
+              process your personal data. This privacy policy covers all
+              necessary information about our personal data processing and it is
+              important that you read and understand this privacy policy before
+              you use any of our services. You should not use any of our
+              services if you do not approve of this privacy policy. Should you
+              have any questions regarding our processing of your personal data,
+              please contact us by using the contact details below.
+            </p>
+            <p className={classes.text}>
+              Please note that our website may contain links to websites
+              provided by third parties. These websites have their own privacy
+              policies and Posteris is not responsible for their business or
+              their information policies. We recommend users who submit
+              information to or through these third-party websites to review the
+              privacy policies on these websites before submitting any personal
+              data to them.
+            </p>
+            <p className={classes.text}>
+              For the collection, processing and retention of information
+              collected via cookies, please refer to our cookie policy.
+            </p>
+            <h2 className={classes.secondHeader}>
+              What personal data do we collect and where from?
+            </h2>
+            <p className={classes.text}>
+              The types of personal data that we collect may, depending on the
+              context, include:
             </p>
             <ul className={classes.list}>
               <li className={classes.listItem}>
                 <p className={classes.text}>
-                  få information om vilka personuppgifter vi behandlar om dig
+                  name and contact information including address, personal
+                  identity number, mobile number and e-mail address;
+                </p>
+              </li>
+              <li className={classes.listItem}>
+                <p className={classes.text}>job title;</p>
+              </li>
+              <li className={classes.listItem}>
+                <p className={classes.text}>
+                  job application documents such as resumé and cover letter,
+                  including, but not limited to, photo, experience, skills,
+                  assessed strengths and weaknesses as well as work duties;
                 </p>
               </li>
               <li className={classes.listItem}>
                 <p className={classes.text}>
-                  vilken laglig grund vi förlitar oss på för behandlingen
+                  the results of aptitude and motivation tests;
                 </p>
               </li>
               <li className={classes.listItem}>
                 <p className={classes.text}>
-                  hur länge vi hanterar dina personuppgifter och vad ändamålet
-                  för behandlingen av dina personuppgifter är
+                  credit reports, salary statement and insurance details;
                 </p>
               </li>
               <li className={classes.listItem}>
                 <p className={classes.text}>
-                  vilka rättigheter du har avseende vår behandling av dina
-                  personuppgifter.
+                  references and performance appraisal, including your
+                  development plan;
+                </p>
+              </li>
+              <li className={classes.listItem}>
+                <p className={classes.text}>
+                  purchase, payment and order history;
+                </p>
+              </li>
+              <li className={classes.listItem}>
+                <p className={classes.text}>IP address;</p>
+              </li>
+              <li className={classes.listItem}>
+                <p className={classes.text}>
+                  other information that is relevant for customer surveys,
+                  advertisements/marketing or offers; and/or
+                </p>
+              </li>
+              <li className={classes.listItem}>
+                <p className={classes.text}>
+                  other user-generated content purposely provided by you via our
+                  website or in connection to our communication with you.
                 </p>
               </li>
             </ul>
-            <h2 className={classes.secondHeader}>
-              4. Personuppgifter som vi behandlar om dig
-            </h2>
             <p className={classes.text}>
-              Vi behandlar olika personuppgifter beroende på vilken relation vi
-              har med dig. Mer detaljerad information finns nedan.
-            </p>
-            <h3 className={classes.thirdHeader}>
-              4.1 För dig som är med i vårt kandidatnätverk
-            </h3>
-            <p className={classes.text}>
-              När du är med i vårt kandidatnätverk behandlar vi den information
-              om dig som du lämnar till oss. Sådan information kan vara ditt
-              namn, din e-postadress, telefonnummer, födelseår, nuvarande
-              arbete, nuvarande titel/roll samt de filer som du väljer att lämna
-              till oss i samband med registrering och därefter, t.ex. ditt CV,
-              personligt brev, samt tjänstgöringsintyg och betyg. Din
-              kandidatprofil kan även komma att kompletteras med uppgifter som
-              du lämnar till oss under en rekryteringsprocess, t.ex. vid
-              intervjuer samt de noteringar och intervjuanteckningar vi för, och
-              genom att uppdatera din kandidatprofil.
-            </p>
-            <p className={classes.text}>
-              Du kan välja att hämta din information från LinkedIn eller
-              Facebook istället för att fylla i den själv när du går med i vårt
-              kandidatnätverk. Om du hämtar information från LinkedIn får
-              Posteris tillgång till ditt namn, din e-postadress, ditt
-              telefonnummer och annan information som du har publicerat på din
-              publika LinkedIn-profil. Om du låter oss hämta information från
-              din Facebook-profil får Posteris tillgång till ditt namn, din
-              e-postadress, ditt telefonnummer, ditt födelseår (valfritt),
-              nuvarande arbete (valfritt), nuvarande titel/roll (valfritt).
-              Väljer du därutöver att lämna andra dokument till oss, t.ex. ditt
-              CV, personliga brev och tjänstgöringsintyg, kommer vi behandla den
-              informationen. Posteris får inte tillgång till hela din
-              Facebook-profil.
-            </p>
-            <p className={classes.text}>
-              För att kunna göra e-postutskick till dig med information om
-              tjänster som matchar din profil behandlar vi information om din
-              e-postadress, utbildningsnivå, branscher du har erfarenhet av och
-              din yrkesroll. För att kontakta dig angående att delta i våra
-              marknadsundersökningar och/eller utvärderingar kan Posteris komma
-              att behandla din e-postadress och/eller ditt telefonnummer.
-              Resultatet av undersökningarna och/eller utvärderingarna kommer
-              endast hanteras anonymt, och utgör därmed ingen personuppgift om
-              dig.
-            </p>
-            <h3 className={classes.thirdHeader}>
-              4.2 För dig som kontaktar oss via vårt kontaktformulär eller
-              e-post
-            </h3>
-            <p className={classes.text}>
-              När du använder vårt kontaktformulär eller skickar frågor via
-              e-post till oss kommer vi behandla de personuppgifter du lämnar
-              till oss i samband med detta, t.ex. ditt namn, din e-postadress,
-              telefonnummer och eventuell övrig information som du skrivit i
-              kontaktformuläret eller din e-post.
-            </p>
-            <h2 className={classes.secondHeader}>
-              5. För vilka ändamål behandlar vi dina personuppgifter?
-            </h2>
-            <h3 className={classes.thirdHeader}>
-              5.1 För dig som är med i vårt kandidatnätverk
-            </h3>
-            <h4 className={classes.fourthHeader}>
-              5.1.1 För att administrera din kandidatprofil om du väljer att gå
-              med i vårt kandidatnätverk
-            </h4>
-            <p className={classes.text}>
-              När du går med i vårt kandidatnätverk kommer vi att behandla dina
-              personuppgifter för att vi ska kunna behandla din profil i
-              kandidatnätverket och matcha dig mot lediga tjänster.
-            </p>
-            <p className={classes.text}>
-              Den lagliga grunden för behandlingen av dina personuppgifter när
-              du är med i vårt kandidatnätverk är ditt samtycke. Om du inte
-              lämnar dina uppgifter eller inte samtycker till att registreras i
-              kandidatnätverket har vi inte möjlighet att spara dina uppgifter
-              och matcha din profil mot lediga tjänster.
-            </p>
-            <h4 className={classes.fourthHeader}>
-              5.1.2 Personlighets- och logiktester samt uppgifter från
-              referenser
-            </h4>
-            <p className={classes.text}>
-              Om du genomför ett personlighets- eller logiktest i samband med
-              rekryteringen till en tjänst kan Posteris komma att spara
-              resultatet av testet för att komplettera din kandidatprofil. Samma
-              sak gäller uppgifter om dig som vi har fått från dina referenser.
-            </p>
-            <p className={classes.text}>
-              Den lagliga grunden för att spara testresultat och/eller
-              information från dina referenser är ditt samtycke.
-            </p>
-            <h4 className={classes.fourthHeader}>
-              5.1.3 För att göra marknadsundersökningar och/eller utvärderingar
-            </h4>
-            <p className={classes.text}>
-              Vi arbetar ständigt med att förbättra vår verksamhet. Vi kan
-              därför komma att kontakta dig angående att delta i
-              marknadsundersökningar och/eller utvärderingar.
-            </p>
-            <p className={classes.text}>
-              Den lagliga grunden för behandlingen är vårt berättigade intresse
-              av att kunna genomföra marknadsundersökningar och utvärderingar
-              avseende våra tjänster för att kunna förbättra vår verksamhet och
-              vårt tjänsteutbud.
-            </p>
-            <h3 className={classes.thirdHeader}>
-              5.2 För dig som kontaktar oss via vårt kontaktformulär eller
-              e-post
-            </h3>
-            <h4 className={classes.fourthHeader}>
-              5.2.1 För att kommunicera med dig och svara på ditt meddelande
-            </h4>
-            <p className={classes.text}>
-              För att kommunicera med dig och svara på ditt meddelande som du
-              skickat via vårt kontaktformulär eller via e-post till oss.
-            </p>
-            <p className={classes.text}>
-              Den lagliga grunden för behandlingen är vårt berättigade intresse
-              av att kontakta dig som valt att kontakta oss och besvara ditt
-              meddelande.
-            </p>
-            <p className={classes.text}>
-              Om du som kontaktar oss är potentiell kandidat, söker en tjänst
-              eller är med i vårt kandidatnätverk behandlar vi dina
-              personuppgifter på det sätt som beskrivs ovan i denna policy under
-              tillämpliga rubriker.
-            </p>
-            <h2 className={classes.secondHeader}>
-              6. När är Posteris AB personuppgiftsansvarig och vad innebär det?
-            </h2>
-            <p className={classes.text}>
-              Posteris AB är personuppgiftsansvarig för all den behandling av
-              dina personuppgifter som beskrivs i denna policy.
-            </p>
-            <p className={classes.text}>
-              Personuppgiftsansvaret innebär att Posteris AB ansvarar för att
-              dina rättigheter enligt gällande dataskyddslagstiftning
-              tillgodoses. Du kan alltid vända dig till Posteris AB för att
-              utöva de rättigheter som beskrivs nedan under ”Dina rättigheter”.
-            </p>
-
-            <h2 className={classes.secondHeader}>
-              7. Hur har vi gjort vår bedömning när vi behandlar uppgifter med
-              intresseavvägning som laglig grund?
-            </h2>
-            <p className={classes.text}>
-              När vi behandlar dina personuppgifter med stöd av en
-              intresseavvägning som laglig grund för behandlingen har vi bedömt
-              att vårt berättigade intresse av att utföra behandlingen väger
-              tyngre än ditt intresse och dina grundläggande rättigheter av att
-              inte få dina personuppgifter behandlade. Om du vill veta mer om
-              hur vi har gjort bedömningen är du välkommen att kontakta oss.
-              Våra kontaktuppgifter finns i början av denna integritetspolicy.
-            </p>
-            <h2 className={classes.secondHeader}>
-              8. Vilka kan få tillgång till dina personuppgifter?
-            </h2>
-            <p className={classes.text}>
-              Dina personuppgifter behandlas som utgångspunkt endast av
-              Posteris. Vi kan dock komma att dela dina personuppgifter i
-              enlighet med nedan.
+              We may collect your personal data from the following sources:
             </p>
             <ul className={classes.list}>
               <li className={classes.listItem}>
                 <p className={classes.text}>
-                  När du ingår i en rekryteringsprocess kan vi så som beskrivet
-                  ovan komma att dela vissa av dina personuppgifter med den
-                  aktuella organisationen vars tjänst du visat intresse för
-                  (d.v.s. Posteris AB:s kund). När vi delar dina personuppgifter
-                  med kunden är kunden ensamt ansvarig för sin behandling av
-                  dina personuppgifter.
+                  Posteris’ website, e.g. when you subscribe to our newsletter
+                  or submit a job application;
                 </p>
               </li>
               <li className={classes.listItem}>
                 <p className={classes.text}>
-                  Vi kan även komma att dela dina personuppgifter med våra
-                  interna och externa IT-leverantörer samt eventuella andra
-                  leverantörer (såsom kreditupplysnings- och
-                  bakgrundskontrollsföretag, leverantörer av
-                  marknadsundersökningar, utvärderingar och personlighets- och
-                  logiktest, samt leverantör av e-postutskick) som vi anlitar,
-                  dock endast i den utsträckning det är nödvändigt i syfte att
-                  de ska kunna fullgöra sina åtaganden i relation till Posteris.
+                  when you contact us by e-mail or phone;
+                </p>
+              </li>
+              <li className={classes.listItem}>
+                <p className={classes.text}>
+                  by way of agreement, invoice or other business contact, if you
+                  are a customer or a contact person for any of our business
+                  partners; and/or
+                </p>
+              </li>
+              <li className={classes.listItem}>
+                <p className={classes.text}>
+                  from third parties in the form of social media, public
+                  records, any of our business partners or in connection with
+                  communication with references provided by you.
                 </p>
               </li>
             </ul>
             <h2 className={classes.secondHeader}>
-              9. Hur länge sparar vi dina personuppgifter?
+              Why do we process your personal data?
             </h2>
             <p className={classes.text}>
-              Nedan anges hur länge Posteris sparar dina personuppgifter. Dina
-              personuppgifter kan dock sparas längre än vad som anges nedan i
-              den mån vi är skyldiga att spara dem längre enligt lag, förordning
-              eller myndighetsbeslut. Observera att du kan omfattas av
-              lagringstider under mer än en rubrik nedan, t.ex. om du söker en
-              tjänst och även är med i vårt kandidatnätverk.
+              Posteris may use your personal data for the following purposes and
+              based on the following legal grounds:
             </p>
-            <h3 className={classes.thirdHeader}>
-              9.1 För dig som är med i vårt kandidatnätverk
-            </h3>
+            <ul className={classes.list}>
+              <li className={classes.listItem}>
+                <h3 className={classes.thirdHeader}>
+                  Performance of a contract
+                </h3>
+                <ul className={classes.list}>
+                  <li className={classes.listItem}>
+                    <p className={classes.text}>
+                      For the handling and administration of purchases and
+                      payments.
+                    </p>
+                  </li>
+                  <li className={classes.listItem}>
+                    <p className={classes.text}>To offer order history.</p>
+                  </li>
+                  <li className={classes.listItem}>
+                    <p className={classes.text}>
+                      To carry out recruitment processes.
+                    </p>
+                  </li>
+                  <li className={classes.listItem}>
+                    <p className={classes.text}>
+                      For organisational capital advisory services such as
+                      leadership development, talent management, evaluations of
+                      teams, individual employees and companies as well as
+                      organisational analyses.
+                    </p>
+                  </li>
+                  <li className={classes.listItem}>
+                    <p className={classes.text}>
+                      To make payments as well as to give you access to our
+                      services. Your personal data may also be used at the
+                      request of payment processing companies and credit
+                      companies in relation to purchases where it is necessary
+                      to carry out credit information checks.
+                    </p>
+                  </li>
+                  <li className={classes.listItem}>
+                    <p className={classes.text}>
+                      For the administration of supply agreements and agreements
+                      with our business partners.
+                    </p>
+                  </li>
+                </ul>
+              </li>
+              <li className={classes.listItem}>
+                <h3 className={classes.thirdHeader}>
+                  Compliance with a legal obligation
+                </h3>
+                <ul className={classes.list}>
+                  <li className={classes.listItem}>
+                    <p className={classes.text}>
+                      We save invoice documentation and recruitment
+                      documentation in accordance with applicable accounting
+                      laws and regulations.
+                    </p>
+                  </li>
+                </ul>
+              </li>
+              <li className={classes.listItem}>
+                <h3 className={classes.thirdHeader}>Legitimate interests</h3>
+                <ul className={classes.list}>
+                  <li className={classes.listItem}>
+                    <p className={classes.text}>
+                      In order for us to be able to communicate with you by
+                      e-mail, and to handle any business transactions made by a
+                      company’s contact person on behalf of the company, we
+                      process the contact person’s personal data.
+                    </p>
+                  </li>
+                  <li className={classes.listItem}>
+                    <p className={classes.text}>
+                      To build and improve business relationships with both
+                      existing and potential customers and business partners.
+                    </p>
+                  </li>
+                  <li className={classes.listItem}>
+                    <p className={classes.text}>
+                      To approach potential candidates by means of, e.g.
+                      candidate sourcing, headhunting or other equivalent
+                      activities.
+                    </p>
+                  </li>
+                  <li className={classes.listItem}>
+                    <p className={classes.text}>
+                      In order for us to be able to provide and improve our
+                      services, we process personal data also in other
+                      circumstances. For example, we analyse customers’
+                      purchasing habits for the purpose of providing existing
+                      and potential customers with relevant information and
+                      marketing as well as for the purpose of statistics and
+                      business and method development.
+                    </p>
+                  </li>
+                </ul>
+              </li>
+              <li className={classes.listItem}>
+                <h3 className={classes.thirdHeader}>Consent</h3>
+                <ul className={classes.list}>
+                  <li className={classes.listItem}>
+                    <p className={classes.text}>
+                      To provide you with direct marketing and to perform
+                      customer surveys.
+                    </p>
+                  </li>
+                  <li className={classes.listItem}>
+                    <p className={classes.text}>
+                      To continue retaining personal data collected by Posteris
+                      during candidate sourcing, headhunting and other
+                      equivalent activities.
+                    </p>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <h2 className={classes.secondHeader}>Retention of personal data</h2>
             <p className={classes.text}>
-              När du väljer att gå med i vårt kandidatnätverk sparar vi de
-              personuppgifter vi har om dig på din kandidatprofil i fem år eller
-              tills du återkallar ditt samtycke eller annars begär att vi ska
-              radera dina personuppgifter. Efter fem år kommer vi att kontakta
-              dig för att fråga om du fortsättningsvis vill vara registrerad i
-              vårt kandidatnätverk. En ny gallringsfrist om fem år påbörjas om
-              du väljer att fortsätta vara registrerad.
-            </p>
-            <p className={classes.text}>
-              Om du redan är med i kandidatnätverket och skickar en ny ansökan
-              till en tjänst och då lämnar ditt samtycke till att vara
-              registrerad i kandidatnätverket igen börjar en ny gallringsfrist
-              om fem år att gälla, räknat från dagen då du samtycke igen. Om du
-              i samband med din ansökan till en tjänst inte väljer att samtycka
-              till att vara registrerad i kandidatnätverket kommer Posteris inte
-              att uppdatera din profil. En ny gallringsfrist kommer då inte
-              heller att påbörjas.
-            </p>
-            <p className={classes.text}>
-              I vissa fall kan vi dock komma att behandla dina personuppgifter
-              under annan tidsperiod än vad som anges ovan. Detta gäller i
-              följande fall:
+              Posteris takes all reasonable steps to ensure that your personal
+              data is processed and stored securely. Your personal data will
+              never be stored longer than permitted by applicable law or longer
+              than necessary to fulfil the above stated purposes. Your personal
+              data will be processed by us during the following time periods,
+              after which they will be deleted:
             </p>
             <ul className={classes.list}>
               <li className={classes.listItem}>
                 <p className={classes.text}>
-                  Om du samtyckt till att göra ett personlighets- eller
-                  logiktest eller att Posteris samlar in uppgifter om dig från
-                  dina referenser kommer vi att spara detta i ett år från att
-                  din kandidatprofil kompletterats med den aktuella
-                  informationen.
+                  <span className={classes.bold}>
+                    Customer and contact person for a company:
+                  </span>{" "}
+                  Your personal data are saved for as long as you are an
+                  appointed contact person for a company doing business with
+                  Posteris. Your personal data will be saved until you request
+                  that they are deleted, but no longer than two (2) years after
+                  you last purchase, unless we must retain your personal data
+                  for any reason listed in the below bullet points.
                 </p>
               </li>
               <li className={classes.listItem}>
                 <p className={classes.text}>
-                  Vi kommer kontakta dig angående att delta i våra
-                  marknadsundersökningar och/eller utvärderingar så länge du är
-                  med i vårt kandidatnätverk. Vi upphör dock med behandlingen om
-                  du invänder mot den.
+                  <span className={classes.bold}>Performance of contract:</span>{" "}
+                  Personal data (name, personal identity number (if you are a
+                  candidate or run a sole proprietorship), address, telephone
+                  number, e-mail, billing and delivery information) which is
+                  submitted to Posteris in connection with the order of products
+                  or services are stored for as long as necessary in order for
+                  Posteris’, or any of our business partners’, performance of
+                  the contract with you.
+                </p>
+              </li>
+              <li className={classes.listItem}>
+                <p className={classes.text}>
+                  <span className={classes.bold}>Communication:</span> If you
+                  are in contact with Posteris by, for example, e-mail, your
+                  personal data are saved for as long as it is necessary for us
+                  to answer your question and complete any follow-up inquiries.
+                </p>
+              </li>
+              <li className={classes.listItem}>
+                <p className={classes.text}>
+                  <span className={classes.bold}>Job applicants:</span> Posteris
+                  saves your application documentation, including your resumé,
+                  cover letter and photo, as applicable, during the recruitment
+                  process and for a following period of two (2) years, in order
+                  for us to defend potential legal claims.
+                </p>
+              </li>
+              <li className={classes.listItem}>
+                <p className={classes.text}>
+                  <span className={classes.bold}>Candidates:</span> Posteris
+                  saves your personal data collected in connection with
+                  candidate sourcing, headhunting or other equivalent activities
+                  for a period of six (6) months, in order to find suitable work
+                  and initiate recruitment processes. Should you consent to it,
+                  your personal data may be retained for a maximum period of two
+                  (2) years.
+                </p>
+              </li>
+              <li className={classes.listItem}>
+                <p className={classes.text}>
+                  <span className={classes.bold}>Legal obligation:</span>{" "}
+                  Posteris saves any documentation that constitutes accounting
+                  information in accordance with applicable accounting
+                  legislation.
+                </p>
+              </li>
+              <li className={classes.listItem}>
+                <p className={classes.text}>
+                  <span className={classes.bold}>Consent:</span> In the event
+                  that we process your personal data based on your consent, we
+                  only save your personal data for as long as we still have your
+                  consent.
+                </p>
+              </li>
+              <li className={classes.listItem}>
+                <p className={classes.text}>
+                  <span className={classes.bold}>Direct marketing:</span> We may
+                  process your personal data for direct marketing purposes for
+                  up to two (2) years after our business relationship has ended,
+                  provided that you do not object to your personal data being
+                  processed for direct marketing purposes. Personal data that
+                  has been obtained from public sources for direct marketing
+                  purposes are, however, deleted as soon as the direct marketing
+                  for which the personal data were collected has been
+                  communicated.
                 </p>
               </li>
             </ul>
-            <h3 className={classes.thirdHeader}>
-              9.2 För dig som kontaktar oss via vårt kontaktformulär eller
-              e-post
-            </h3>
+            <h2 className={classes.secondHeader}>Transfer of personal data</h2>
             <p className={classes.text}>
-              För att svara på ditt meddelande och hjälpa dig med ditt ärende
-              när du använt kontaktformuläret på vår hemsida eller skickat ditt
-              meddelande via e-post sparar vi dina personuppgifter från att du
-              skickar ditt meddelande till oss och tills ditt ärende är
-              avslutat.
+              Posteris always observe great caution when transferring your
+              personal data and your personal data is only transferred in
+              accordance with this privacy policy and after taking appropriate
+              security measures. We do not sell personal data to third parties.
+              Posteris may transfer your personal data in the following
+              situations:
+            </p>
+            <ul className={classes.list}>
+              <li className={classes.listItem}>
+                <p className={classes.text}>
+                  <span className={classes.bold}>Business partners:</span> Some
+                  of our business partners, e.g. suppliers of aptitude and
+                  motivation tests, suppliers of operations support systems or
+                  customers receiving information about candidates, may be
+                  granted access to the personal data that is necessary for them
+                  to fulfil their obligations but are strictly prohibited to use
+                  your personal data for other purposes. Access will also be
+                  granted in circumstances where your personal data is necessary
+                  for the performance of our collaboration with the business
+                  partners in question.
+                </p>
+              </li>
+              <li className={classes.listItem}>
+                <p className={classes.text}>
+                  <span className={classes.bold}> Business transactions:</span>{" "}
+                  If all or part of Posteris’ operations is sold or integrated
+                  with any other business, operation or company, your personal
+                  data may be disclosed to our advisors, potential buyers and
+                  their advisors, and be transferred to the new owners of the
+                  operation.
+                </p>
+              </li>
+              <li className={classes.listItem}>
+                <p className={classes.text}>
+                  <span className={classes.bold}>Legal obligations:</span> Your
+                  personal data may also be disclosed for the purpose of
+                  Posteris’ compliance with certain legal obligations and it may
+                  be transferred to relevant public authorities when permitted
+                  and required by law.
+                </p>
+              </li>
+            </ul>
+            <p className={classes.text}>
+              The type of transfers mentioned above may be carried out to
+              companies within the EU/EEA as well as to third countries whose
+              data protection laws may differ from the level of protection
+              within the EU/EEA. When transfers to third countries are carried
+              out, Posteris takes all appropriate measures to ensure that your
+              personal data are adequately protected and that all processing is
+              performed in accordance with this privacy policy. Posteris will
+              ensure that at least one of the following conditions are fulfilled
+              in relation to each of those transfers:
+            </p>
+            <ul className={classes.list}>
+              <li className={classes.listItem}>
+                <p className={classes.text}>
+                  the receiving country ensures an adequate level of protection;
+                </p>
+              </li>
+              <li className={classes.listItem}>
+                <p className={classes.text}>
+                  Posteris has collected your consent prior to the transfer;
+                </p>
+              </li>
+              <li className={classes.listItem}>
+                <p className={classes.text}>
+                  an agreement including certain standard contractual clauses
+                  issued by the European Commission (e.g. 2021/914/EU) have been
+                  entered into between Posteris and the recipient, without any
+                  conflicting changes or amendments; or
+                </p>
+              </li>
+              <li className={classes.listItem}>
+                <p className={classes.text}>
+                  the recipient has adopted binding corporate rules for the
+                  processing which have been approved by the relevant
+                  supervisory authority.
+                </p>
+              </li>
+            </ul>
+            <p className={classes.text}>
+              You have the right to obtain a copy of the safeguards that we use
+              when transferring personal data to a country outside of the EU/EEA
+              by contacting Posteris.
+            </p>
+            <h2 className={classes.secondHeader}>Withdrawal of consent</h2>
+            <p className={classes.text}>
+              In the event that we process your personal data based on your
+              consent, it is important that you are aware of your right to
+              withdraw your consent at any time. You may withdraw your consent
+              by contacting us on the contact details provided below. Such
+              withdrawal may be made in whole or in part. If you do not wish to
+              receive advertisements and marketing offers from us, you can
+              withdraw your consent by contacting customer service or, as
+              regards direct marketing via e-mail, by following the link in our
+              marketing e-mails.
+            </p>
+            <h2 className={classes.secondHeader}>Your rights</h2>
+            <p className={classes.text}>
+              You have the right to request information about what personal data
+              concerning you that we are processing and how it is being used by
+              contacting us in writing (see contact details below). You also
+              have the right to request correction of incorrect, incomplete or
+              ambiguous personal data concerning you by contacting us. For the
+              protection of your privacy and your personal data, we may require
+              that you identify yourself in connection with our assistance.
+            </p>
+            <p className={classes.text}>
+              In accordance with applicable data protection laws, you also have
+              the right to request that your personal data be erased or that the
+              processing of your personal data be restricted. In certain
+              situations, you also have the right to object to the processing of
+              your personal data and request that your personal data be
+              transmitted in an electronic format.
+            </p>
+            <p className={classes.text}>
+              You may file a complaint with the Swedish Data Protection
+              Authority (Sw. Integritetsskyddsmyndigheten) if you believe that
+              Posteris’ processing of your personal data is not carried out in
+              accordance with applicable laws.
             </p>
             <h2 className={classes.secondHeader}>
-              10. Överför vi dina personuppgifter utanför EU/EES?
+              Changes to the privacy policy
             </h2>
             <p className={classes.text}>
-              Posteris behandlar som huvudregel dina personuppgifter inom
-              EU/EES. I vissa fall kan vi dock komma att överföra dina
-              personuppgifter utanför EU/EES till våra leverantörer (t.ex.
-              leverantörer av tjänster för e-postutskick, personlighets- och
-              logiktester samt marknadsundersökningar/utvärderingar).
+              Please note that the terms of the privacy policy may be changed.
+              Any new version will be published on Posteris’ website.
+              Consequently, you should review these terms on a regular basis to
+              make sure that you are satisfied with the changes. In case of any
+              material changes we will, however, e-mail you, if you have given
+              us your e-mail address, to make you aware of any changes made.
             </p>
             <p className={classes.text}>
-              När vi överför personuppgifter utanför EU/EES görs detta endast om
-              vi har vidtagit lämpliga skyddsåtgärder för överföringen i
-              enlighet med gällande lagar och regler för dataskydd. Vi kan t.ex.
-              använda oss av så kallade modellklausulsavtal eller överföra till
-              länder som EU-kommissionen har beslutat har en adekvat skyddsnivå
-              avseende dataskydd.
+              If the changes concern processing of personal data based on your
+              consent, you will be given the opportunity to consent once again.
             </p>
+            <h2 className={classes.secondHeader}>Contact us</h2>
             <p className={classes.text}>
-              Till USA kan överföring t.ex. ske till Privacy Shield-certifierade
-              organisationer. Privacy Shield är ett avtal mellan EU och USA med
-              syfte att skydda européers grundläggande rättigheter och att
-              garantera rättssäkerhet för organisationer som överför
-              personuppgifter till USA.
+              If you have any questions related to this privacy policy, if you
+              suspect that a breach of this privacy policy has occurred, or if
+              you would like to contact us for any reason stated in this privacy
+              policy, please contact us using the contact details provided
+              below.
             </p>
-            <p className={classes.text}>
-              Om du har några frågor angående hur vi delar dina personuppgifter
-              eller om du vill ha en kopia av de lämpliga skyddsåtgärder vi
-              vidtagit är du välkommen att kontakta oss via de kontaktuppgifter
-              som framgår i inledningen till integritetspolicyn.
-            </p>
-            <h2 className={classes.secondHeader}>11. Dina rättigheter</h2>
-            <p className={classes.text}>
-              Du har vissa rättigheter avseende behandlingen av dina
-              personuppgifter, dessa beskrivs närmare nedan. För att utöva dina
-              rättigheter är du välkommen att kontakta oss via de
-              kontaktuppgifter som framgår i inledningen till den här policyn.
-            </p>
-            <h3 className={classes.thirdHeader}>
-              11.1 Återkalla ditt samtycke
-            </h3>
-            <p className={classes.text}>
-              Du har rätt att när som helst återkalla hela eller del av ett
-              lämnat samtycke om behandling av personuppgifter. Återkallelsen av
-              ditt samtycke får dock ingen effekt på vår behandling av dina
-              personuppgifter för tiden innan återkallelsen ägde rum.
-            </p>
-            <h3 className={classes.thirdHeader}>11.2 Rätt till tillgång</h3>
-            <p className={classes.text}>
-              Du har rätt att få en bekräftelse på om personuppgifter som rör
-              dig behandlas samt tillgång till information om hur
-              personuppgifterna behandlas, t.ex. ändamålen med behandlingen och
-              vilka kategorier av personuppgifter som behandlingen gäller. Du
-              har även rätt att få en kopia av de personuppgifter som är under
-              behandling.
-            </p>
-            <h3 className={classes.thirdHeader}>11.3 Rätt till rättelse</h3>
-            <p className={classes.text}>
-              Du har även rätt att utan onödigt dröjsmål få felaktiga
-              personuppgifter rättade, samt genom att tillhandahålla information
-              komplettera ofullständiga personuppgifter.
-            </p>
-            <h3 className={classes.thirdHeader}>
-              11.4 Rätt till radering (rätten att bli bortglömd)
-            </h3>
-            <p className={classes.text}>
-              Du har under vissa förutsättningar rätt att begära radering av
-              dina personuppgifter. Sådana förutsättningar föreligger om:
-            </p>
-            <ul className={classes.list}>
-              <li className={classes.listItem}>
-                <p className={classes.text}>
-                  personuppgifterna inte längre är nödvändiga för de ändamål som
-                  de samlats in eller behandlats för;
-                </p>
-              </li>
-              <li className={classes.listItem}>
-                <p className={classes.text}>
-                  du återkallar ditt samtycke som behandlingen grundar sig på
-                  och det inte finns någon annan rättslig grund för
-                  behandlingen;
-                </p>
-              </li>
-              <li className={classes.listItem}>
-                <p className={classes.text}>
-                  du invänder mot behandlingen och det saknas berättigade skäl
-                  för att fortsätta med behandlingen som väger tyngre än dina
-                  berättigade skäl att inte fortsätta;
-                </p>
-              </li>
-              <li className={classes.listItem}>
-                <p className={classes.text}>
-                  personuppgifterna har behandlats på olagligt sätt; eller
-                </p>
-              </li>
-              <li className={classes.listItem}>
-                <p className={classes.text}>
-                  personuppgifterna måste raderas för att uppfylla en rättslig
-                  förpliktelse som Posteris omfattas av.
-                </p>
-              </li>
-            </ul>
-            <p className={classes.text}>
-              Posteris raderar dina personuppgifter på din begäran, under
-              förutsättning att Posteris inte har en skyldighet att spara
-              personuppgifterna i enlighet med gällande lagar och regler för
-              dataskydd.
-            </p>
-            <h3 className={classes.thirdHeader}>
-              11.5 Rätt till begränsning av behandling
-            </h3>
-            <p className={classes.text}>
-              Du har under vissa förutsättningar rätt att begära att
-              behandlingen av dina personuppgifter begränsas. Sådana
-              förutsättningar föreligger om:
-            </p>
-            <ul className={classes.list}>
-              <li className={classes.listItem}>
-                <p className={classes.text}>
-                  du bestrider uppgifternas korrekthet (dock endast under en tid
-                  som ger oss möjlighet att kontrollera detta);
-                </p>
-              </li>
-              <li className={classes.listItem}>
-                <p className={classes.text}>
-                  behandlingen är olaglig och du motsätter dig att
-                  personuppgifterna raderas samt istället begär en begränsning
-                  av uppgifternas användning;
-                </p>
-              </li>
-              <li className={classes.listItem}>
-                <p className={classes.text}>
-                  du behöver personuppgifterna för att göra gällande eller
-                  försvara rättsliga anspråk trots att vi inte längre behöver
-                  personuppgifterna för syftet med behandlingen; eller
-                </p>
-              </li>
-              <li className={classes.listItem}>
-                <p className={classes.text}>
-                  du har invänt mot behandlingen och vi inte utfört en kontroll
-                  av om vårt berättigade intresse att behandla dina
-                  personuppgifter väger tyngre än ditt berättigade skäl av att
-                  behandlingen av dina personuppgifter begränsas.
-                </p>
-              </li>
-            </ul>
-            <h3 className={classes.thirdHeader}>
-              11.6 Rätt att invända mot behandling
-            </h3>
-            <p className={classes.text}>
-              Du har rätt att när som helst invända mot behandling av dina
-              personuppgifter som görs med stöd av Posteris berättigade
-              intresse. Om du invänder mot att dina personuppgifter behandlas
-              för marknadsföringsändamål kommer dina personuppgifter inte längre
-              att behandlas för sådana ändamål. För andra ändamål kan Posteris
-              dock komma att fortsatt behandla dina personuppgifter, under
-              förutsättning att Posteris kan påvisa tvingande berättigade skäl
-              för behandlingen som väger tyngre än den registrerades intressen
-              eller om det sker för fastställande, utövande eller försvar av
-              rättsliga anspråk.
-            </p>
-            <h3 className={classes.thirdHeader}>11.7 Rätt att inge klagomål</h3>
-            <p className={classes.text}>
-              Du har rätt att lämna klagomål till en behörig tillsynsmyndighet
-              (utan att det påverkar något annat administrativt
-              prövningsförfarande eller rättsmedel). Ett sådant klagomål lämnas
-              med fördel till myndigheten i den medlemsstat inom EU/EES där du
-              har din hemvist, där du arbetar eller där en överträdelse av
-              gällande lagar och regler för dataskydd påstås ha förekommit.
-              Behörig tillsynsmyndighet i Sverige är Datainspektionen.
-            </p>
-            <h3 className={classes.thirdHeader}>
-              11.8 Rätt till dataportabilitet
-            </h3>
-            <p className={classes.text}>
-              Du har rätt att få ut och be oss överföra de personuppgifter som
-              rör dig, som du har tillhandahållit oss, till en annan
-              organisation i ett strukturerat, allmänt använt och maskinläsbart
-              format (dataportabilitet). Rätten till dataportabilitet föreligger
-              när:
-            </p>
-            <ul className={classes.list}>
-              <li className={classes.listItem}>
-                <p className={classes.text}>
-                  behandlingen grundar sig på ditt samtycke; och
-                </p>
-              </li>
-              <li className={classes.listItem}>
-                <p className={classes.text}>behandlingen sker automatiserat.</p>
-              </li>
-            </ul>
-            <p className={classes.text}>
-              Du har rätt till överföring av personuppgifterna direkt från oss
-              till en annan personuppgiftsansvarig när detta är tekniskt
-              möjligt.
-            </p>
-            <hr className={classes.hr} />
-            <p className={classes.text}>
-              Denna integritetspolicy för kandidater har fastställts av Posteris
-              AB 2020-01-04
-            </p>
+            <br />
+            <div className={classes.contact}>
+              <p className={classes.text}>
+                <span className={classes.bold}>Posteris AB</span>
+                <br />
+                Lillängsgatan 24
+                <br />
+                168 58 Bromma
+                <br />
+                gdpr@posteris.se
+              </p>
+            </div>
           </Col>
         </Row>
       </Container>

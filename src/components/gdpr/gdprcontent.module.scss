@@ -6,6 +6,7 @@ $button-color: $light-green;
   position: relative;
   min-height: 100vh;
   padding: 20px;
+  padding-bottom: 80px;
   // display: flex;
   //   align-content: center;
   //   align-items: center;
@@ -21,6 +22,16 @@ $button-color: $light-green;
   //   h4 {
   //     margin-bottom: 0;
   //   }
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.contact {
+  p {
+    margin-bottom: 0;
+  }
 }
 
 .header {
