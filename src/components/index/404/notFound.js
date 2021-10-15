@@ -7,7 +7,10 @@ const NotFound = () => {
   return (
     <Container className={notFoundStyles.outerWrapper} fluid>
       <Container className={notFoundStyles.innerWrapper}>
-        <h2 className={notFoundStyles.title}>Website under construction.</h2>
+        <h2 className={notFoundStyles.title}>
+          Be patient with us. We’re out making organizational evolution that
+          makes a difference for humanity. We’ll be back as soon as possible
+        </h2>
         <div
         // data-sal="fade"
         // data-sal-delay="100"

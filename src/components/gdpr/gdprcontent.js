@@ -57,10 +57,10 @@ const GdprContent = () => {
               privacy policies on these websites before submitting any personal
               data to them.
             </p>
-            <p className={classes.text}>
+            {/* <p className={classes.text}>
               For the collection, processing and retention of information
               collected via cookies, please refer to our cookie policy.
-            </p>
+            </p> */}
             <h2 className={classes.secondHeader}>
               What personal data do we collect and where from?
             </h2>
