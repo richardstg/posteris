@@ -11,7 +11,7 @@ import NotFound from "../components/index/404/notFound"
 
 const IndexPage = () => {
   return (
-    <div>
+    <Layout>
       {/* <SEO title="POSTERIS" description="" />
       <Intro />
       <OurBeliefs />
@@ -20,7 +20,7 @@ const IndexPage = () => {
       <Inquiries /> */}
       <SEO title="Home" description="Website under construction." />
       <NotFound />
-    </div>
+    </Layout>
   )
 }
 
